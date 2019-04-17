@@ -18,6 +18,7 @@ setup(
     description='Find joinable columns between two dataframes',
     install_requires=[
         "pandas>=0.19",
+        "scipy", 
         "statsmodels>=0.9.0"
     ],
     include_package_data = False,
