@@ -17,7 +17,9 @@ We recommend generating reports interactively by using the Jupyter notebook.
 
 Start by loading in your pandas DataFrame, e.g. by using
 ```python
+from pandas_insight import compare_dataframes
 import numpy as np
+import pandas as pd
         
 df1 = pd.DataFrame(np.random.randint(0,100,size=(100, 4)), columns=list('ABCD'))
 df2 = pd.DataFrame(np.random.randint(0,100,size=(100, 4)), columns=list('ABCD'))
